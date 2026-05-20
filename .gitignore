@@ -1,4 +1,5 @@
 .env
+.env.example
 logs/
 __pycache__/
 *.pyc
@@ -6,12 +7,12 @@ __pycache__/
 dbt_packages/
 dbt/target/
 .dbt/
-# Ignore local add scripts and generated SQL artifacts
-**/add.sh
-add.sh
+# Ignore local shell scripts, env files, and generated SQL artifacts
+get_opensky_token.sh
+opensky_data_commands.sh
 snowflakes.sql
 start.sql
-*.sh
 plugins/
 seeds/
+dbt/include/
 *.xh
