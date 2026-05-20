@@ -10,4 +10,8 @@ dbt/target/
 **/add.sh
 add.sh
 snowflakes.sql
+start.sql
+*.sh
+plugins/
+seeds/
 *.xh
