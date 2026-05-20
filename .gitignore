@@ -1,0 +1,13 @@
+.env
+logs/
+__pycache__/
+*.pyc
+.DS_Store
+dbt_packages/
+dbt/target/
+.dbt/
+# Ignore local add scripts and generated SQL artifacts
+**/add.sh
+add.sh
+snowflakes.sql
+*.xh
